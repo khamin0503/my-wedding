@@ -22,10 +22,6 @@ function toggleMenuActive() {
         const itemTop = $(itemTarget).offset().top - 80;
         const itemHeight = $(itemTarget).height() - 80;
 
-        if (itemTarget === '#fh5co-header' || itemTarget === '#fh5co-couple') {
-            console.log(scroll, itemTop, itemHeight);
-        }
-
         if (scroll >= itemTop && scroll <= itemTop + itemHeight) {
             $(this).addClass('active');
         } else {
@@ -68,3 +64,6 @@ $(document).on('click', '.js-click-scroll-to', function () {
         scrollTop: target.offset().top
     });
 });
+
+// Gallery
+var gallery = $('.js-gallery ul > li > a').simpleLightbox({});
