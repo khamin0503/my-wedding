@@ -17,12 +17,12 @@ simplyCountdown('.simply-countdown-one', {
 function toggleMenuActive() {
     const scroll = $(window).scrollTop();
 
-    $('#js-main-nav ul').find('li').each(function () {
+    $('.js-main-menu').find('li').each(function () {
         const itemTarget = $(this).find('a').data('target');
         const itemTop = $(itemTarget).offset().top - 80;
         const itemHeight = $(itemTarget).height() - 80;
 
-        if(itemTarget === '#fh5co-header' || itemTarget === '#fh5co-couple') {
+        if (itemTarget === '#fh5co-header' || itemTarget === '#fh5co-couple') {
             console.log(scroll, itemTop, itemHeight);
         }
 
@@ -32,6 +32,11 @@ function toggleMenuActive() {
             $(this).removeClass('active');
         }
     });
+}
+
+function closeMobileMenus() {
+    $('body').removeClass('overflow offcanvas');
+    $('.js-fh5co-nav-toggle').removeClass('active');
 }
 
 $(document).ready(function () {
@@ -53,9 +58,13 @@ $(window).scroll(function () {
 });
 
 $(document).on('click', '.js-click-scroll-to', function () {
-    const target = $(this).data('target');
+    const target = $($(this).attr('data-target'));
+
+    if (target.closest('#fh5co-offcanvas')) {
+        closeMobileMenus();
+    }
 
     $('html,body').animate({
-        scrollTop: $(target).offset().top
+        scrollTop: target.offset().top
     });
 });

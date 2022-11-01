@@ -12,3 +12,17 @@ html {
     height: 100vh;
     background-position: 0 0 !important;
 }
+
+#fh5co-offcanvas ul li.active > a {
+    color: #fff !important;
+}
+
+#fh5co-offcanvas {
+    position: fixed;
+}
+
+.offcanvas #page {
+    overflow-y: unset;
+    position: relative;
+}
+
