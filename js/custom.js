@@ -35,8 +35,18 @@ function closeMobileMenus() {
     $('.js-fh5co-nav-toggle').removeClass('active');
 }
 
+function initGallery() {
+    $('.js-gallery ul > li > a').simpleLightbox({});
+
+    $('.js-gallery-2 ul > li').each(function () {
+        $(this).find('a').simpleLightbox({});
+    });
+}
+
 $(document).ready(function () {
     toggleMenuActive();
+
+    initGallery();
 });
 
 $(window).scroll(function () {
@@ -65,5 +75,3 @@ $(document).on('click', '.js-click-scroll-to', function () {
     });
 });
 
-// Gallery
-var gallery = $('.js-gallery ul > li > a').simpleLightbox({});

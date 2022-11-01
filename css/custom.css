@@ -34,6 +34,7 @@ html {
     top: 0;
     left: 0;
     display: table;
+    z-index: 100;
 }
 
 .case-studies-summary-more h2 {
@@ -42,5 +43,9 @@ html {
     vertical-align: middle;
     text-align: center;
     color: #fff;
+}
+
+.fh5co-gallery-list-each-item > li a:not(:first-child) {
+    display: none;
 }
 
