@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
