@@ -10,4 +10,5 @@ html {
 
 .fh5co-cover {
     height: 100vh;
+    background-position: 0 0 !important;
 }

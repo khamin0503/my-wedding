@@ -77,16 +77,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+					<div id="fh5co-logo"><a class="js-click-scroll-to" data-target="#fh5co-header">KvsH</a></div>
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="#fh5co-header">Home</a></li>
-						<li><a href="#fh5co-couple">Giới thiệu</a></li>
-						<li><a href="#fh5co-event">Thông tin</a></li>
-						<li><a href="#fh5co-couple-story">Câu chuyện</a></li>
-						<li><a href="#fh5co-gallery">Ảnh cưới</a></li>
-						<li><a href="#fh5co-testimonial">Lời chúc</a></li>
+						<li><a class="js-click-scroll-to" data-target="#fh5co-header">Home</a></li>
+						<li><a class="js-click-scroll-to" data-target="#fh5co-couple">Giới thiệu</a></li>
+						<li><a class="js-click-scroll-to" data-target="#fh5co-event">Thông tin</a></li>
+						<li><a class="js-click-scroll-to" data-target="#fh5co-couple-story">Câu chuyện</a></li>
+						<li><a class="js-click-scroll-to" data-target="#fh5co-gallery">Ảnh cưới</a></li>
+						<li><a class="js-click-scroll-to" data-target="#fh5co-testimonial">Lời chúc</a></li>
 					</ul>
 				</div>
 			</div>
@@ -104,7 +104,7 @@
 							<h1>Kha &amp; Hạnh</h1>
 							<h2>Lễ thành hôn chỉ còn</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#fh5co-event" class="btn btn-default btn-sm">Chi tiết</a></p>
+							<p><a class="btn btn-default btn-sm js-click-scroll-to" data-target="#fh5co-event">Chi tiết</a></p>
 						</div>
 					</div>
 				</div>
@@ -148,7 +148,7 @@
 						<p>
 							09/10/1996 <br>
 							Bình Long, Bình Mỹ, Bình Lục, Hà Nam <br>
-							19034045772023 - Techcombank
+							9116909101996 - MBbank
 						</p>
 					</div>
 				</div>
@@ -180,7 +180,7 @@
 									<div class="event-col">
 										<i class="icon-calendar"></i>
 										<span>Chủ nhật, ngày 18</span>
-										<span>tháng 11, năm 2022</span>
+										<span>tháng 12, năm 2022</span>
 									</div>
 									<p>Xóm Trung Long, thôn Đức Long, xã Duy Nhất, huyện Vũ Thư, tỉnh Thái Bình.</p>
 								</div>
@@ -196,7 +196,7 @@
 									<div class="event-col">
 										<i class="icon-calendar"></i>
 										<span>Chủ nhật, ngày 18</span>
-										<span>tháng 11, năm 2022</span>
+										<span>tháng 12, năm 2022</span>
 									</div>
 									<p>Tiểu khu Bình Long, thị trấn Bình Mỹ, huyện Bình Lục, tỉnh Hà Nam.</p>
 								</div>
@@ -606,33 +606,7 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
-	<script>
-    var d = new Date('2022-12-18 06:00');
-
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate(),
-		words: {
-			days: 'ngày',
-			hours: 'giờ',
-			minutes: 'phút',
-			seconds: 'giây',
-			pluralLetter: ''
-		},
-    });
-
-	$(window).scroll(function() {
-		var scroll = $(window).scrollTop();
-
-		if (scroll >= 100) {
-			$("#js-main-nav").addClass("navbar-fixed-top");
-		} else {
-			$("#js-main-nav").removeClass("navbar-fixed-top");
-		}
-	});
-</script>
+	<script src="js/custom.js"></script>
 
 	</body>
 </html>
