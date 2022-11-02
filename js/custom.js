@@ -35,7 +35,33 @@ function closeMobileMenus() {
     $('.js-fh5co-nav-toggle').removeClass('active');
 }
 
+function appendImageToGalleries() {
+    const galleries = {
+        'BacKan': 11,
+        'BaVi': 0,
+        'HaGiang': 29,
+        'CaoBang': 0,
+        'DaNang': 0,
+        'LangSon': 0,
+        'MaiChau': 0,
+        'MocChau': 0,
+        'TamDao': 0,
+    }
+
+    $.each(galleries, function (place, numOfImage) {
+        let html = ``;
+
+        for (let i = 2; i <= numOfImage; i++) {
+            html += '<a href="images/galleries/' + place + '/' + i + '.jpg"></a>';
+        }
+
+        $('#js-gallery-' + place).append(html);
+    });
+}
+
 function initGallery() {
+    appendImageToGalleries();
+
     $('.js-gallery ul > li > a').simpleLightbox({});
 
     $('.js-gallery-2 ul > li').each(function () {
