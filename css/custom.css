@@ -28,7 +28,7 @@ html {
 
 .fh5co-cover {
     height: 100vh;
-    background-position: 0 0 !important;
+    background-position: center !important;
 }
 
 #fh5co-offcanvas ul li.active > a {
@@ -78,4 +78,36 @@ html {
 
 .gototop a i {
     height: 40px;
+}
+
+#fh5co-counter, #fh5co-event, .fh5co-bg {
+    background-position: center !important;
+}
+
+.couple-half .groom img, .couple-half .bride img {
+    width: 100%;
+    height: unset;
+    -webkit-border-radius: unset;
+    -moz-border-radius: unset;
+    border-radius: unset;
+}
+
+.couple-half .groom, .couple-half .bride {
+    overflow: hidden;
+}
+
+.heart {
+    margin: 0;
+    width: 0;
+    left: 47%;
+}
+
+@media screen and (max-width: 480px) {
+    .couple-half .groom, .couple-half .bride {
+        float: unset;
+        display: block;
+        margin: 0 auto 20px;
+        height: 120px;
+        width: 120px;
+    }
 }

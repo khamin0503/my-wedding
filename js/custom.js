@@ -60,6 +60,8 @@ function appendImageToGalleries() {
 function initGallery() {
     appendImageToGalleries();
 
+    $('a.js-global-gallery').simpleLightbox({});
+
     $('.js-gallery ul > li > a').simpleLightbox({});
 
     $('.js-gallery-2 ul > li').each(function () {
