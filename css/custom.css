@@ -2,10 +2,28 @@ html {
     scroll-behavior: smooth;
 }
 
+.fh5co-nav ul li a {
+    line-height: 45px;
+}
+
 .navbar-fixed-top {
     position: fixed;
     background-color: rgba(241, 78, 149, 0.4);
-    padding: 20px 0;
+    padding: 5px 0;
+}
+
+.fh5co-nav.navbar-fixed-top #fh5co-logo {
+    font-size: 20px;
+}
+
+.fh5co-nav.navbar-fixed-top ul li a {
+    padding: 0 10px;
+    line-height: 35px;
+}
+
+.navbar-fixed-top .fh5co-nav-toggle {
+    padding: 5px;
+    top: 0;
 }
 
 .fh5co-cover {
@@ -49,3 +67,15 @@ html {
     display: none;
 }
 
+.my-text-color {
+    color: #F14E95;
+}
+
+.gototop a {
+    width: 40px;
+    height: 40px;
+}
+
+.gototop a i {
+    height: 40px;
+}
