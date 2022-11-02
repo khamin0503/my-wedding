@@ -19,13 +19,11 @@ function toggleMenuActive() {
 
     $('.js-main-menu').find('li').each(function () {
         const itemTarget = $(this).find('a').data('target');
-        const itemTop = $(itemTarget).offset().top - 80;
-        const itemHeight = $(itemTarget).height() - 80;
+        const itemTop = $(itemTarget).offset().top - 300;
 
-        if (scroll >= itemTop && scroll <= itemTop + itemHeight) {
+        if (scroll >= itemTop) {
+            $('.js-main-menu').find('li').removeClass('active');
             $(this).addClass('active');
-        } else {
-            $(this).removeClass('active');
         }
     });
 }
