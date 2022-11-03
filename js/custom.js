@@ -112,12 +112,16 @@ $(document).on('submit', 'form.js-form-attend', function (e) {
     let errorName = '';
     let errorNote = '';
     const maxLength = 255;
+    const buttonText = form.find('button').text();
 
     form.find('.help-block').remove();
     form.find('.has-error').removeClass('has-error');
+    form.find('input').attr('readonly', true);
+    form.find('button').text('Chờ một xíu...');
+    form.find('button').attr('disabled', true);
 
     if (!name.length) {
-        errorName = 'Nhập tên giúp mình với ;(';
+        errorName = 'Nhập tên giúp mình với :(';
     } else if (name.length > maxLength) {
         errorName = 'Tên sao dài thế nhỉ? :( (' + maxLength + ')';
     }
@@ -136,6 +140,10 @@ $(document).on('submit', 'form.js-form-attend', function (e) {
             form.find('input#note').parent().addClass('has-error');
             form.find('input#note').parent().append('<span class="help-block">' + errorNote + '</span>');
         }
+
+        form.find('input').attr('readonly', false);
+        form.find('button').text(buttonText);
+        form.find('button').attr('disabled', false);
     } else {
         const scriptURL = 'https://script.google.com/macros/s/AKfycbw9dOK75PcTahN2OUxcF87y4GViLR8y6Q6pJ6GNmz2V72megf9wmw79D5lSj8fvWWfEuw/exec';
         const body = new FormData();
@@ -144,8 +152,15 @@ $(document).on('submit', 'form.js-form-attend', function (e) {
         body.append('note', note);
 
         fetch(scriptURL, {method: 'POST', body: body})
-            .then(response => form.parent().html('<p style="text-align: center; margin-top: 0;"><i style="color: #F14E95; font-size: 100px;" class="icon-circle-check"></i></p>'))
-            .catch(error => form.parent().html('<p style="text-align: center; margin-top: 0;"><i style="color: red; font-size: 30px;" class="icon-time-slot"></i> ' + error + '</p>'));
+            .then(() => form.parent().html('<p style="text-align: center; margin-top: 0;"><i style="color: #F14E95; font-size: 100px;" class="icon-circle-check"></i></p>'))
+            .catch(error => {
+                form.find('input').attr('readonly', false);
+                form.find('button').text(buttonText);
+                form.find('button').attr('disabled', false);
+
+                form.find('input#name').parent().addClass('has-error');
+                form.find('input#name').parent().append('<span class="help-block">' + error + '</span>');
+            });
     }
 
     return false;
