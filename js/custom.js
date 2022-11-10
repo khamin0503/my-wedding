@@ -36,11 +36,11 @@ function closeMobileMenus() {
 function appendImageToGalleries() {
     const galleries = {
         'BacKan': 11,
-        'BaVi': 0,
+        'SaPa': 1,
         'HaGiang': 29,
         'CaoBang': 0,
         'DaNang': 0,
-        'LangSon': 0,
+        'MuCangChai': 0,
         'MaiChau': 0,
         'MocChau': 0,
         'TamDao': 0,
