@@ -35,26 +35,41 @@ function closeMobileMenus() {
 
 function appendImageToGalleries() {
     const galleries = {
-        'BacKan': 11,
-        'SaPa': 1,
-        'HaGiang': 29,
-        'CaoBang': 0,
-        'DaNang': 0,
-        'MuCangChai': 0,
-        'MaiChau': 0,
-        'MocChau': 0,
-        'TamDao': 0,
+        'BacKan': 2,
+        'SaPa': 2,
+        'HaGiang': 4,
+        'CaoBang': 1,
+        'DaNang': 1,
+        'MuCangChai': 1,
+        'MaiChau': 1,
+        'MocChau': 1,
+        'TamDao': 1,
     }
+    const numberOfWeddingGallery = 28;
 
     $.each(galleries, function (place, numOfImage) {
         let html = ``;
+        const placeEl = $('#js-gallery-' + place);
 
         for (let i = 2; i <= numOfImage; i++) {
             html += '<a href="images/galleries/' + place + '/' + i + '.jpg"></a>';
         }
 
-        $('#js-gallery-' + place).append(html);
+        placeEl.append(html);
+
+        if (numOfImage > 1) {
+            placeEl.find('a:first-child').append('<div class="case-studies-summary-more"><h2>+' + (numOfImage - 1) + '</h2></div>');
+        }
     });
+
+    let g = '';
+
+    for (let j = 7; j <= numberOfWeddingGallery; j++) {
+        g += '<li><a href="images/galleries/Wedding/' + j + '.jpg"></a></li>';
+    }
+
+    $('ul#js-gallery-list-hidden').append(g);
+    $('.js-gallery-list-more').html('+' + (numberOfWeddingGallery - 6));
 }
 
 function initGallery() {

@@ -28,7 +28,8 @@ html {
 
 .fh5co-cover {
     height: 100vh;
-    background-position: center !important;
+    background-position-x: 45% !important;
+    background-position-y: center !important;
 }
 
 #fh5co-offcanvas ul li.active > a {
@@ -48,16 +49,14 @@ html {
 .case-studies-summary-more {
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
-    display: table;
     z-index: 100;
 }
 
 .case-studies-summary-more h2 {
     margin: 0;
-    display: table-cell;
     vertical-align: middle;
     text-align: center;
     color: #fff;
@@ -80,7 +79,7 @@ html {
     height: 40px;
 }
 
-#fh5co-counter, #fh5co-event, .fh5co-bg {
+.fh5co-bg {
     background-position: center !important;
 }
 
@@ -104,6 +103,10 @@ html {
 
 .has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
     color: red;
+}
+
+#fh5co-started {
+    background-position-y: 40% !important;
 }
 
 @media screen and (max-width: 480px) {
