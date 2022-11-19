@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  php-apache:
+    container_name: my-wedding-php-apache
+    image: php:8.0-apache
+    volumes:
+      - .:/var/www/html/
+    ports:
+      - "8080:80"
