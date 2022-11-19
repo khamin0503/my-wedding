@@ -19,7 +19,7 @@ $displayAmount = 6;
                         <?php if ($k <= $displayAmount) { ?>
                             <li class="one-third animate-box" data-animate-effect="fadeIn"
                                 style="background-image: url('images/galleries/Wedding/<?= $k ?>.jpg'); ">
-                                <a href="images/galleries/Wedding/<?= $k ?>.jpg">
+                                <a href="images/galleries/Wedding/<?= $k ?>.jpg" class="color-<?= $k ?>">
                                     <?php if ($k === $displayAmount) { ?>
                                         <div class="case-studies-summary-more">
                                             <h2>+<?= $galleryAmount - $displayAmount ?></h2>
