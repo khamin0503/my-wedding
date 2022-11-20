@@ -1,14 +1,14 @@
 <?php
 $travels = [
-    ['key' => 'TamDao', 'name' => 'Tam Đảo', 'amount' => 1, 'date' => '12, tháng 03, 2022'],
-    ['key' => 'MaiChau', 'name' => 'Mai Châu', 'amount' => 1, 'date' => '27, tháng 03, 2022'],
-    ['key' => 'MocChau', 'name' => 'Mộc Châu', 'amount' => 1, 'date' => '17, tháng 04, 2022'],
-    ['key' => 'HaGiang', 'name' => 'Hà Giang', 'amount' => 4, 'date' => '28, tháng 04, 2022'],
+    ['key' => 'TamDao', 'name' => 'Tam Đảo', 'amount' => 2, 'date' => '12, tháng 03, 2022'],
+    ['key' => 'MaiChau', 'name' => 'Mai Châu', 'amount' => 2, 'date' => '27, tháng 03, 2022'],
+    ['key' => 'MocChau', 'name' => 'Mộc Châu', 'amount' => 3, 'date' => '17, tháng 04, 2022'],
+    ['key' => 'HaGiang', 'name' => 'Hà Giang', 'amount' => 5, 'date' => '28, tháng 04, 2022'],
     ['key' => 'BacKan', 'name' => 'Bắc Kạn', 'amount' => 2, 'date' => '26, tháng 06, 2022'],
-    ['key' => 'MuCangChai', 'name' => 'Mù Cang Chải', 'amount' => 1, 'date' => '13, tháng 08, 2022'],
-    ['key' => 'CaoBang', 'name' => 'Cao Bằng', 'amount' => 1, 'date' => '03, tháng 09, 2022'],
-    ['key' => 'DaNang', 'name' => 'Đà Nẵng - Huế - Hội An', 'amount' => 1, 'date' => '16, tháng 09, 2022'],
-    ['key' => 'SaPa', 'name' => 'Sapa', 'amount' => 2, 'date' => '09, tháng 10, 2022'],
+    ['key' => 'MuCangChai', 'name' => 'Mù Cang Chải', 'amount' => 2, 'date' => '13, tháng 08, 2022'],
+    ['key' => 'CaoBang', 'name' => 'Cao Bằng', 'amount' => 3, 'date' => '03, tháng 09, 2022'],
+    ['key' => 'DaNang', 'name' => 'Đà Nẵng - Huế - Hội An', 'amount' => 3, 'date' => '16, tháng 09, 2022'],
+    ['key' => 'SaPa', 'name' => 'Sapa', 'amount' => 8, 'date' => '09, tháng 10, 2022'],
 ];
 ?>
 
