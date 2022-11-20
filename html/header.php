@@ -10,7 +10,7 @@
                     <li><a class="js-click-scroll-to" data-target="#fh5co-header">K&#9829;H</a></li>
                     <li><a class="js-click-scroll-to" data-target="#fh5co-couple">Ai cưới?</a></li>
                     <li><a class="js-click-scroll-to" data-target="#fh5co-event">Ở đâu?</a></li>
-                    <li><a class="js-click-scroll-to" data-target="#fh5co-couple-story">Tại sao?</a></li>
+                    <li><a class="js-click-scroll-to" data-target="#fh5co-couple-story">Câu chuyện</a></li>
                     <li><a class="js-click-scroll-to" data-target="#fh5co-gallery">Gallery</a></li>
                     <li><a class="js-click-scroll-to" data-target="#fh5co-testimonial">Lời chúc</a></li>
                     <li><a class="js-click-scroll-to" data-target="#fh5co-started">Tham dự</a></li>
