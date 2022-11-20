@@ -95,13 +95,13 @@ $(document).on('submit', 'form.js-form-attend', function (e) {
     form.find('button').attr('disabled', true);
 
     if (!name.length) {
-        errorName = 'Nhập tên giúp mình với :(';
+        errorName = 'Nhập tên giúp mình với :)';
     } else if (name.length > maxLength) {
-        errorName = 'Tên sao dài thế nhỉ? :( (' + maxLength + ')';
+        errorName = 'Tên sao dài thế nhỉ? :) (' + maxLength + ')';
     }
 
     if (note.length > maxLength) {
-        errorNote = 'Ghi chú sao dài thế nhỉ? :( (' + maxLength + ')'
+        errorNote = 'Ghi chú sao dài thế nhỉ? :) (' + maxLength + ')'
     }
 
     if (errorName.length || errorNote.length) {

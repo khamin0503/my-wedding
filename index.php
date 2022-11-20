@@ -57,10 +57,10 @@ $quotes = [
     <link href="lib/simplelightbox-master/dist/simple-lightbox.min.css" rel="stylesheet"/>
 
     <!-- Theme style  -->
-    <link rel="stylesheet" href="css/style.css?v=12">
+    <link rel="stylesheet" href="css/style.css?v=13">
 
     <!-- Theme style  -->
-    <link rel="stylesheet" href="css/custom.css?v=12">
+    <link rel="stylesheet" href="css/custom.css?v=13">
 
     <!-- Modernizr JS -->
     <script src="js/modernizr-2.6.2.min.js"></script>
@@ -121,9 +121,9 @@ $quotes = [
 <!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
 <script src="js/simplyCountdown.js"></script>
 <!-- Main -->
-<script src="js/main.js?v=12"></script>
+<script src="js/main.js?v=13"></script>
 
-<script src="js/custom.js?v=12"></script>
+<script src="js/custom.js?v=13"></script>
 
 </body>
 </html>
