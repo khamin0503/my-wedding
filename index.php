@@ -1,10 +1,6 @@
-<?php
-$quotes = [
-    'Duyên do trời định. Phận do người tạo. Hạnh phúc do mình tự nắm bắt.',
-    'Tình yêu xuất phát từ cảm xúc của hai tâm hồn và do đó chỉ có những người đang yêu mới cảm nhận được hết tình yêu..',
-    'Thế gian này cái quý nhất không phải là thứ không có được hay đã mất đi, mà là hạnh phúc hiện tại bạn đang nắm giữ.',
-    'Người nói yêu bạn, chưa chắc có thể đợi được bạn. Nhưng người nói đợi được bạn, chắc chắn sẽ rất yêu bạn.',
-];
+<?php 
+$appBaseUrl = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://"); 
+$appBaseUrl.= $_SERVER['HTTP_HOST'];
 ?>
 
 <!DOCTYPE html>
@@ -27,12 +23,12 @@ $quotes = [
 
     <!-- Facebook and Twitter integration -->
     <meta property="og:title" content="Lời mời dự Hôn lễ KvsH"/>
-    <meta property="og:image" content="images/img_bg_2.jpg"/>
+    <meta property="og:image" content="<?= $appBaseUrl ?>/images/img_share.png"/>
     <meta property="og:url" content=""/>
     <meta property="og:site_name" content=""/>
     <meta property="og:description" content="Lời mời, giới thiệu, hình ảnh về Hôn lễ của Ngọc Kha vs Nguyễn Hạnh"/>
     <meta name="twitter:title" content="Lời mời dự Hôn lễ KvsH"/>
-    <meta name="twitter:image" content="images/img_bg_2.jpg"/>
+    <meta name="twitter:image" content="<?= $appBaseUrl ?>/images/img_share.png"/>
     <meta name="twitter:url" content=""/>
     <meta name="twitter:card" content=""/>
 

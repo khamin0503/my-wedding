@@ -9,9 +9,9 @@
                 <ul class="js-main-menu">
                     <li><a class="js-click-scroll-to" data-target="#fh5co-header">K&#9829;H</a></li>
                     <li><a class="js-click-scroll-to" data-target="#fh5co-couple">Ai cưới?</a></li>
-                    <li><a class="js-click-scroll-to" data-target="#fh5co-event">Ở đâu?</a></li>
+                    <li><a class="js-click-scroll-to" data-target="#fh5co-event">Khi nào & Ở đâu?</a></li>
                     <li><a class="js-click-scroll-to" data-target="#fh5co-couple-story">Câu chuyện</a></li>
-                    <li><a class="js-click-scroll-to" data-target="#fh5co-gallery">Gallery</a></li>
+                    <li><a class="js-click-scroll-to" data-target="#fh5co-gallery">W-Gallery</a></li>
                     <li><a class="js-click-scroll-to" data-target="#fh5co-testimonial">Lời chúc</a></li>
                     <li><a class="js-click-scroll-to" data-target="#fh5co-started">Tham dự</a></li>
                 </ul>
@@ -21,7 +21,7 @@
     </div>
 </nav>
 
-<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);"
+<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.png);"
         data-stellar-background-ratio="0.5">
     <div class="overlay"></div>
     <div class="container">
@@ -30,11 +30,13 @@
                 <div class="display-t">
                     <div class="display-tc animate-box" data-animate-effect="fadeIn">
                         <h1>Kha &#9829; Hạnh</h1>
-                        <h2>Cùng chờ đón...</h2>
+                        <h2>cùng chờ đón lễ thành hôn...</h2>
                         <div class="simply-countdown simply-countdown-one"></div>
-                        <p><a class="btn btn-default btn-sm js-click-scroll-to" data-target="#fh5co-couple"
-                              title="Bắt đầu nào">Bắt đầu
-                                nào...</a></p>
+                        <p>
+                            <a class="btn btn-default btn-sm js-click-scroll-to" data-target="#fh5co-couple">
+                                Xem thêm...
+                            </a>
+                            </p>
                     </div>
                 </div>
             </div>

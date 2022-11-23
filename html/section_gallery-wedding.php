@@ -1,6 +1,6 @@
 <?php
 $galleryAmount = 28;
-$displayAmount = 6;
+$displayAmount = 9;
 ?>
 
 <div id="fh5co-gallery">
@@ -9,7 +9,7 @@ $displayAmount = 6;
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
                 <span>Cùng chiêm ngưỡng</span>
                 <h2>Wedding gallery</h2>
-                <p><?= $quotes[array_rand($quotes)] ?></p>
+                <p>Người nói yêu bạn, chưa chắc có thể đợi được bạn. Nhưng người nói đợi được bạn, chắc chắn sẽ rất yêu bạn.</p>
             </div>
         </div>
         <div class="row row-bottom-padded-md">

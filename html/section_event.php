@@ -1,10 +1,10 @@
-<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.png);">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-                <span>Hôn lễ</span>
-                <h2>Ở đâu?</h2>
+                <span>Tổ chức lễ thành hôn</span>
+                <h2>Khi nào và ở đâu?</h2>
             </div>
         </div>
         <div class="row">

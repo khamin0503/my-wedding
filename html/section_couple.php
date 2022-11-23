@@ -8,7 +8,7 @@
                 </h3>
                 <h4>(Tức ngày 25, tháng 11, năm Nhâm Dần)</h4>
                 <p>
-                    <?= $quotes[array_rand($quotes)] ?>
+                    Duyên do trời định. Phận do người tạo. Hạnh phúc do mình tự nắm bắt.
                 </p>
             </div>
         </div>

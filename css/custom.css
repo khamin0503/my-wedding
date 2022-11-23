@@ -28,8 +28,7 @@ html {
 
 .fh5co-cover {
     height: 100vh;
-    background-position-x: 45% !important;
-    background-position-y: center !important;
+    background-position: center !important;
 }
 
 #fh5co-offcanvas ul li.active > a {

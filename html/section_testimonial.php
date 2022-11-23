@@ -3,17 +3,20 @@ $testimonials = [
     [
         'name' => 'Hảo Lớ',
         'fb' => 'https://www.facebook.com/hao.lo.10',
-        'content' => 'Chúc mừng hai bạn đã vượt qua ngàn giông bão để đến bên nhau. Chúc hai bạn sớm sinh quý tử và trân quý nhau. Mừng ngày hạnh phúc!'
+        'content' => 'Chúc mừng hai bạn đã vượt qua ngàn giông bão để đến bên nhau. Chúc hai bạn sớm sinh quý tử và trân quý nhau. Mừng ngày hạnh phúc!',
+        'job' => 'Banker',
     ],
     [
         'name' => 'Vũ Hoàng',
         'fb' => 'https://www.facebook.com/foolismvu',
-        'content' => 'Thật may mắn khi hai bạn đã tìm thấy nhau giữa thế giới rộng lớn này. Hai bạn đúng là mảnh ghép hoàn hảo và hãy tiếp tục làm nên những mảnh ghép tươi đẹp trong cuộc sống nhé!'
+        'content' => 'Thật may mắn khi hai bạn đã tìm thấy nhau giữa thế giới rộng lớn này. Hai bạn đúng là mảnh ghép hoàn hảo và hãy tiếp tục làm nên những mảnh ghép tươi đẹp trong cuộc sống nhé!',
+        'job' => 'CEO - Hộp đựng giày',
     ],
     [
         'name' => 'Trọng Khang',
         'fb' => 'https://www.facebook.com/khang.trong.391082',
-        'content' => 'Marriage is a challenge. But I believe no matter what, right now you are the happiest person in this wedding. Wish you happy.'
+        'content' => 'Marriage is a challenge. But I believe no matter what, right now you are the happiest person in this wedding. Wish you happy.',
+        'job' => 'Master Developer',
     ],
 ];
 ?>
@@ -39,6 +42,7 @@ $testimonials = [
                                         </figure>
                                         <span><?= $t['name'] ?> <a target="_blank" href="<?= $t['fb'] ?>"
                                                                    class="twitter">Facebook</a></span>
+                                                                   <small>(<?= $t['job'] ?>)</small>
                                         <blockquote>
                                             <p><?= $t['content'] ?></p>
                                         </blockquote>

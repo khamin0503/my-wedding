@@ -2,12 +2,12 @@
 $travels = [
     ['key' => 'TamDao', 'name' => 'Tam Đảo', 'amount' => 2, 'date' => '12, tháng 03, 2022'],
     ['key' => 'MaiChau', 'name' => 'Mai Châu', 'amount' => 2, 'date' => '27, tháng 03, 2022'],
-    ['key' => 'MocChau', 'name' => 'Mộc Châu', 'amount' => 3, 'date' => '17, tháng 04, 2022'],
+    ['key' => 'MocChau', 'name' => 'Mộc Châu', 'amount' => 4, 'date' => '17, tháng 04, 2022'],
     ['key' => 'HaGiang', 'name' => 'Hà Giang', 'amount' => 5, 'date' => '28, tháng 04, 2022'],
     ['key' => 'BacKan', 'name' => 'Bắc Kạn', 'amount' => 2, 'date' => '26, tháng 06, 2022'],
     ['key' => 'MuCangChai', 'name' => 'Mù Cang Chải', 'amount' => 2, 'date' => '13, tháng 08, 2022'],
     ['key' => 'CaoBang', 'name' => 'Cao Bằng', 'amount' => 3, 'date' => '03, tháng 09, 2022'],
-    ['key' => 'DaNang', 'name' => 'Đà Nẵng - Huế - Hội An', 'amount' => 7, 'date' => '16, tháng 09, 2022'],
+    ['key' => 'DaNang', 'name' => 'Đà Nẵng - Huế - Hội An', 'amount' => 8, 'date' => '16, tháng 09, 2022'],
     ['key' => 'SaPa', 'name' => 'Sapa', 'amount' => 8, 'date' => '09, tháng 10, 2022'],
 ];
 ?>
@@ -18,7 +18,7 @@ $travels = [
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
                 <span>Nhiều kỉ niệm với</span>
                 <h2>Những chuyến đi</h2>
-                <p><?= $quotes[array_rand($quotes)] ?></p>
+                <p>Tình yêu xuất phát từ cảm xúc của hai tâm hồn và do đó chỉ có những người đang yêu mới cảm nhận được hết tình yêu..</p>
             </div>
         </div>
         <div class="row row-bottom-padded-md">
