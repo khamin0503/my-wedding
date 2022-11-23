@@ -7,7 +7,7 @@ $travels = [
     ['key' => 'BacKan', 'name' => 'Bắc Kạn', 'amount' => 2, 'date' => '26, tháng 06, 2022'],
     ['key' => 'MuCangChai', 'name' => 'Mù Cang Chải', 'amount' => 2, 'date' => '13, tháng 08, 2022'],
     ['key' => 'CaoBang', 'name' => 'Cao Bằng', 'amount' => 3, 'date' => '03, tháng 09, 2022'],
-    ['key' => 'DaNang', 'name' => 'Đà Nẵng - Huế - Hội An', 'amount' => 7, 'date' => '16, tháng 09, 2022'],
+    ['key' => 'DaNang', 'name' => 'Đà Nẵng - Huế - Hội An', 'amount' => 6, 'date' => '16, tháng 09, 2022'],
     ['key' => 'SaPa', 'name' => 'Sapa', 'amount' => 8, 'date' => '09, tháng 10, 2022'],
 ];
 ?>
