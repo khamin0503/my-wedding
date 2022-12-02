@@ -16,7 +16,8 @@ $timelines = [
             <div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
                 <span>Những mốc thời gian</span>
                 <h2>Câu chuyện tình yêu</h2>
-                <p>Thế gian này cái quý nhất không phải là thứ không có được hay đã mất đi, mà là hạnh phúc hiện tại bạn đang nắm giữ.</p>
+                <p>Thế gian này cái quý nhất không phải là thứ không có được hay đã mất đi, mà là hạnh phúc hiện tại bạn
+                    đang nắm giữ.</p>
             </div>
         </div>
         <div class="row">
