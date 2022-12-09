@@ -146,7 +146,7 @@
 		owl.owlCarousel({
 			items: 1,
 			loop: true,
-			autoplay: 3000,
+			// autoplay: 60000,
 			margin: 0,
 			responsiveClass: true,
 			nav: false,

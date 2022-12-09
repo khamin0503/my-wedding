@@ -3,7 +3,7 @@ $testimonials = [
     [
         'name' => 'Hảo Lớ',
         'fb' => 'https://www.facebook.com/hao.lo.10',
-        'content' => 'Chúc mừng hai bạn đã vượt qua ngàn giông bão để đến bên nhau. Chúc hai bạn sớm sinh quý tử và trân quý nhau. Mừng ngày hạnh phúc!',
+        'content' => 'T đã lục lọi trong trí nhớ từ lúc chúng ta quen nhau, chơi với nhau, chia sẻ mọi buồn vui với nhau, cả những lúc m bảo vệ t khỏi những con côn trùng, châu chấu trong suốt 15 năm qua, t muốn nói nhiều điều nhưng sẽ gặp trực tiếp để có thể luyên thuyên mà không phải đắn đo cách sắp xếp suy nghĩ sao cho hoàn chỉnh nhất. T cũng đã từng tự hỏi cảm giác bạn thân đi lấy chồng là thế nào, có cảm giác hơi hụt hẫng thoáng qua rồi đấy, rồi sẽ chẳng còn những lúc ới phát có mặt ngay nữa. Nhưng bây giờ…t thật sự rất vui khi thấy m đã tìm được bến đỗ bình yên của cuộc đời; nhìn cách mà anh Kha chăm sóc m t thấy yên tâm, thấy hạnh phúc và mừng cho m lắm. Hãy luôn hạnh phúc nhé vì m xứng đáng được như thế. Chúc mừng Dê ☘️',
         'job' => 'Banker',
     ],
     [
@@ -42,7 +42,7 @@ $testimonials = [
                                         </figure>
                                         <span><?= $t['name'] ?> <a target="_blank" href="<?= $t['fb'] ?>"
                                                                    class="twitter">Facebook</a></span>
-                                                                   <small>(<?= $t['job'] ?>)</small>
+                                        <small>(<?= $t['job'] ?>)</small>
                                         <blockquote>
                                             <p><?= $t['content'] ?></p>
                                         </blockquote>
