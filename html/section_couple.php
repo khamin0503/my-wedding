@@ -24,7 +24,7 @@
                         <a href="tel:0377189136">0377.189.136</a> <br>
                         Duy Nhất, Vũ Thư, Thái Bình <br>
                         <a target="_blank" href="https://www.facebook.com/khaminns">Facebook</a><br>
-                        <img src="images/qrcode_kha.jpg" alt="Qr code Kha" style="width: 150px;">
+                        <img src="images/qrcode_kha_2.jpg" alt="Qr code Kha" style="width: 150px;">
                     </p>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                         <a href="tel:0968476916">0968.476.916</a> <br>
                         Bình Mỹ, Bình Lục, Hà Nam <br>
                         <a target="_blank" href="https://www.facebook.com/hanh.libra.37">Facebook</a><br>
-                        <img src="images/qrcode_hanh.jpg" alt="Qr code Hạnh" style="width: 150px;">
+                        <img src="images/qrcode_hanh_2.jpg" alt="Qr code Hạnh" style="width: 150px;">
                     </p>
                 </div>
             </div>
